@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Clock, Instagram, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { text } from "stream/consumers";
+
 
 export default function LandingPage() {
   const [scrollY, setScrollY] = useState(0);
