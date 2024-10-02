@@ -26,14 +26,14 @@ export default function LandingPage() {
 
   const products = [
     {
-      name: "🌟 Semua Varian ",
+      name: "🌟 Mix Semua Varian ",
       image: "/placeholder.svg",
       price: "💰 Rp 59.900",
       description:
         "Satu kotak berisi 10 buah Laffet dengan semua varian rasa kami. Pas banget buat kamu yang penasaran dan ingin mencoba semua kelezatan Laffet! 🎉🥳",
     },
     {
-      name: "🌟 2 Varian ",
+      name: "🌟 Mix 2 Varian ",
       image: "/placeholder.svg",
       price: "💰 Rp 54.900",
       description:
@@ -122,12 +122,12 @@ export default function LandingPage() {
       <main className="pt-20 md:pt-30">
         <section
           id="hero"
-          className="min-h-screen flex items-center bg-green-50"
+          className="flex items-center bg-green-50 py-5 sm:py:10 md:py-20"
         >
           <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/2 mb-8 md:mb-0">
               <motion.h2
-                className="text-4xl md:text-6xl font-bold mb-4"
+                className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4"
                 initial="hidden"
                 animate="visible"
                 variants={fadeInUp}
@@ -135,7 +135,7 @@ export default function LandingPage() {
                 Lengkapi Perayaan Anda.
               </motion.h2>
               <motion.p
-                className="text-xl mb-8"
+                className="text-md md:text-lg lg:text-xl mb-8"
                 initial="hidden"
                 animate="visible"
                 variants={fadeInUp}
@@ -420,7 +420,7 @@ export default function LandingPage() {
             <h4 className="text-xl font-semibold mb-4">Sosial Media</h4>
             <div className="flex space-x-4">
               <a
-                href="https://www.instagram.com/laffet"
+                href="https://www.instagram.com/laffet.id?igsh=YXBhcTNkdXE3MDFr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-green-200 transition-colors"
