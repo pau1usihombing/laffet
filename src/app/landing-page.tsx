@@ -214,26 +214,27 @@ export default function LandingPage() {
                 variants={fadeInUp}
                 transition={{ delay: 0.2 }}
               >
-                Di Laffet, kami percaya bahwa lapet adalah lebih dari sekadar
-                makanan; ia adalah jalinan kisah, kenangan, dan perasaan yang
-                mendalam. Arti lapet bagi kami adalah cinta yang diwariskan dari
-                generasi ke generasi, sebuah simbol kehangatan keluarga dan
-                kebersamaan.
+                Lapet adalah kue tradisional dari Sumatera Utara yang erat dengan budaya suku Batak. Terbuat dari tepung ketan, kelapa parut, dan gula aren, yang dibungkus daun pisang, lapet kerap disajikan dalam acara adat sebagai simbol kebersamaan. Lapet artinya kue yang sederhana namun sarat makna budaya, di mana setiap gigitan menghadirkan rasa khas tradisi.
               </motion.p>
               <motion.p
-                className="text-lg text-justify"
+                className="text-lg  mb-4 text-justify"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={fadeInUp}
                 transition={{ delay: 0.4 }}
               >
-                Terinspirasi oleh kenangan masa kecil di dapur nenek, aroma
-                manis kue lapet yang baru matang, dan tawa bersama keluarga,
-                kami menciptakan Laffet untuk menghidupkan kembali momen-momen
-                berharga itu. Kami memadukan kue lapet tradisional dengan
-                sentuhan modern, menawarkan rasa seperti matcha, ubi ungu, dan
-                labu yang membawa Anda pada petualangan rasa dan emosi.
+                Laffet kini menghadirkan lapet Batak dalam versi premium dengan berbagai pilihan rasa modern seperti original, ubi ungu, labu, matcha, ketan hitam, dan lainnya. Cita rasa tradisional yang dipadukan dengan inovasi ini menjadikan lapet versi Laffet populer di kalangan masyarakat, baik yang sudah mengenal budaya Batak maupun mereka yang baru mencobanya.
+              </motion.p>
+              <motion.p
+                className="text-lg  mb-4 text-justify"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                transition={{ delay: 0.4 }}
+              >
+                Lapet Laffet juga cocok untuk dinikmati di berbagai acara, baik personal maupun kantor. Mulai dari arisan keluarga, pesta ulang tahun, hingga rapat atau gathering di kantor, lapet premium dari Laffet menawarkan sensasi cita rasa yang berbeda untuk setiap momen spesial Anda.
               </motion.p>
             </div>
           </div>
